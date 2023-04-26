@@ -14,8 +14,13 @@
   "contributes": {
     "commands": [
       {
-        "command": "tailwind-to-css-generator.helloWorld",
+        "command": "tailwind-to-css-generator.helloVSCode",
         "title": "Hello World"
+      },
+      {
+        "command": "tailwind-to-css-generator.convertTailwindToCSS",
+        "title": "Convert Tailwind to CSS",
+        "key": "ctrl+shift+t"
       }
     ]
   },
